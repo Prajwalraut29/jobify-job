@@ -4,7 +4,7 @@ import HeroImg from '@/public/images/hero.svg'
 const Hero = () => {
     return (
         <div className='pt-[5rem] pb-[3rem] '>
-            <div className='w-[100%] h-[60vh] flex flex-col items-center justify-between '>
+            <div className='w-[100%] h-[60vh] flex flex-wrap flex-col items-center justify-between '>
                 <div className='w-[80%] mx-auto grid grid-cols-1 lg:grid-cols-2 items-center gap-[2rem]'>
                     {/* contenet*/}
                     <div>
@@ -14,7 +14,7 @@ const Hero = () => {
                         <p className='text-sm text-slate-500 text-[16px] md:text-[18px] mt-[1rem]'>Each Month, more than 4 million job seeers turn to website in thier search for work, making over 140,000 applications every single day </p>
                     </div>
 
-                    <div className='hidden lg:block'>
+                    <div className=' '>
                         <Image src={HeroImg} alt='hero' width={700} height={400} />
                     </div>
                 </div>

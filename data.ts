@@ -56,6 +56,38 @@ const JobData: Job[] = [
     location: "Canada",
     jobtype: "Freelance",
   },
+  {
+    id: 7,
+    title: "Software Engineer",
+    image: "/images/com.png",
+    salary: "20k - 50k",
+    location: "USA",
+    jobtype: "part-time",
+  },
+  {
+    id: 8,
+    title: "Backend Engineer",
+    image: "/images/illustrator.png",
+    salary: "20k - 50k",
+    location: "USA",
+    jobtype: "part-time",
+  },
+  {
+    id: 9,
+    title: "Devops Engineer",
+    image: "/images/social-media.png",
+    salary: "20k - 50k",
+    location: "USA",
+    jobtype: "part-time",
+  },
+  {
+    id: 10,
+    title: "Ai Ml  Engineer",
+    image: "/images/comm.png",
+    salary: "20k - 50k",
+    location: "USA",
+    jobtype: "part-time",
+  },
 ];
 
 export default JobData;
